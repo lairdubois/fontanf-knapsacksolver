@@ -27,7 +27,7 @@ endif()
 FetchContent_Declare(
     optimizationtools
     GIT_REPOSITORY https://github.com/fontanf/optimizationtools.git
-    GIT_TAG 4037a1a03f97ea0c388baa4f3f74c3ba55baec08
+    GIT_TAG 5e0c59cb06c779d1950b31caa636998b37f5db1b
     #SOURCE_DIR "${PROJECT_SOURCE_DIR}/../optimizationtools/"
     EXCLUDE_FROM_ALL)
 FetchContent_MakeAvailable(optimizationtools)
