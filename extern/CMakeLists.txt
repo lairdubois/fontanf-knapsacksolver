@@ -24,10 +24,11 @@ if(KNAPSACKSOLVER_BUILD_TEST)
 endif()
 
 # Fetch fontanf/optimizationtools.
+set(OPTIMIZATIONTOOLS_BUILD_TEST OFF)
 FetchContent_Declare(
     optimizationtools
     GIT_REPOSITORY https://github.com/fontanf/optimizationtools.git
-    GIT_TAG 5e0c59cb06c779d1950b31caa636998b37f5db1b
+    GIT_TAG e086ec4cfcc9a885cd63f579a99ea5e8f4737005
     #SOURCE_DIR "${PROJECT_SOURCE_DIR}/../optimizationtools/"
     EXCLUDE_FROM_ALL)
 FetchContent_MakeAvailable(optimizationtools)
